@@ -1,0 +1,98 @@
+:root{
+    --main-bg-color:black;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    background-color: black;
+    height: 12vh;
+    width: 100%;
+}
+.logo{
+display: flex;
+align-items: center;
+}
+.logo img {
+    width: 88px;
+    padding: 4vh 2vw;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+ nav ul li {
+    list-style: none;
+    padding: 0 23px;
+    
+
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.search{
+   display: flex;
+    align-items: center;
+}
+
+.search input{
+    width: 44vw;
+    height: 2vw;
+    border-radius: 2px black;
+}
+
+.search button{
+    align-items: center;
+    color: rgb(121, 117, 117);
+    margin: 6px 8px;
+    background: #f4f4f2;
+    width: 5vw;
+    height: 30px;
+  }
+
+ .slider{
+    background-image: url(https://cdn.pixabay.com/photo/2017/11/29/13/28/a-discount-2986181__480.jpg);
+    width: 100vw;
+    height: 76vh;
+    background-repeat: no-repeat;
+    /* margin: 0PX 15px 0px 15px ; */
+    overflow: hidden;
+    
+ }
+
+ .card{
+    background-color:rgb(243, 247, 247);
+    display: flex;
+mar
+    margin-left: auto;
+   margin-bottom: 45px;
+ }
+ .cards{
+    
+    background-color: #f4f4f2;
+    border: 20px solid rgb(198, 204, 204);
+    height:205px;
+    margin: 13px;
+    padding: 40px;
+ }
+
+ footer{
+    width:100vw;
+    height: 7vh;
+    background-color: var(--main-bg-color);
+    color: white;
+   
+ }
+ .end{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
